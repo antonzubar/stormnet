@@ -2,19 +2,28 @@
 <html>
     <head>
         <style type="text/css">
-            body {
-                
-                background-color: rgb(206, 187, 187);
+            body {                
+                background-color: #cebbbb;
+                width: 80%;
+                margin: 0 auto;
+                font-size: 14px;
+                line-height: 20px;
             }
             
             h1 {
-                font-family: sans-serif;
+                font-family: "Avenir", sans-serif;
                 color: blue;
                 text-align: center;
+                font-size: 2em;
             }
 
             p {
                 color: darkblue;
+                font-weight: 100;
+            }
+
+            .imgAndTitle {
+                display: inline-block;
             }               
         </style> 
         <title>Bla Bla Site</title>
@@ -28,7 +37,14 @@
                 Blabla bla! Bla bla? Blaa. Bla, bla...Blabla bla! Bla bla? Blaa. Bla, bla...
                 <blockquote>Blabword Bla</blockquote>
         </p>
-        <img src="img/tenor.gif" alt="wut scary">
-        <img src="img/wut.gif" width="460" height="306" alt="wut 3d">
+        <div class="imgAndTitle">
+            <img src="img/tenor.gif" alt="wut scary">
+            <p>img 1</p>
+        </div>
+        <div class="imgAndTitle">
+            <img src="img/wut.gif" width="460" height="306" alt="wut 3d">
+            <p>img 2</p>
+        </div>
+        
     </body>
 </html>
