@@ -141,20 +141,87 @@ h2 {
 }
 
 .cardButton::after {
-    content: '>>';
+    content: '\00a0>>';
 }
 
 #additionalInfo {
     width: 60%;
-    margin: 20pt auto;
+    margin: 20pt auto;	
+    padding-bottom: 25pt;
+    border-bottom: dotted;
+    border-color: #bbbbbb;
 }
 
 #additionalInfo div {
-    width: 49%;
+    width: 48%;
+	vertical-align: top;
     display: inline-block;
+	font-size: 19pt;
+	color: #555; 
 }
 
 #additionalInfo div:first-child {
     border-right: dotted;
     border-color: #bbbbbb;
+}
+
+#additionalInfo div:last-child {
+    padding-left: 20pt;
+}
+
+#additionalInfo > div:nth-child(2) > h4 {	
+	margin-bottom: 17pt;
+}
+
+figure {
+	margin-left: 0;
+}
+
+figure figcaption {
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12pt;
+}
+
+blockquote {
+	margin-top: 0;
+}
+
+figcaption p {
+	margin-left: 40px;
+}
+
+.authorReview {
+	font-weight: bold;
+}
+
+.authorCompany {
+	color: #00bff3;
+}
+
+#additionalInfo > div:nth-child(2) > p{
+	margin-top: 0;
+}
+
+#additionalInfo > div:nth-child(2) > p:nth-child(4) {
+	margin-top: 12pt;
+	font-size: 12pt;
+}
+
+#additionalInfo > div:nth-child(2) > a {
+	font-size: 12pt;
+	text-decoration: none;
+	color: #00bff3;
+}
+
+#additionalInfo > div:nth-child(2) > a::after {
+	content: "\00a0>>";
+}
+
+footer {
+	width: 60%;
+    margin: 20pt auto;	
+	font-size: 16pt;
+	color: #bbbbbb;
 }
