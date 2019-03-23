@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.woff');
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Myriad Pro', Arial, sans-serif;
+    margin:0;
+}
+
+nav {
+    background-color: #333333;
+    color: #eeeeee;
+    height: 133px;
+}
+
+#navContainer {
+    padding-top: 28px;
+    width: 60%;
+    margin: auto;
+}
+
+#logo {
+    font-size: 45pt;
+}
+
+#menu {
+    margin-top: 28pt;
+    display: inline-block;
+    float: right;
+}
+
+#menu li {
+    display: inline;
+    font-size: 15pt;
+}
+
+#menu li:not(:first-child):before {
+    content: '--\00a0\00a0';
+}
+
+#menu li:not(:last-child):after {
+    content: '\00a0\00a0';
+}
+
+#menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu li a:hover {
+    color: #00bff3;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+h2 {
+    font-size: 30pt;
+    font-weight: 300;
+    color: #bbbbbb;
+}
+
+.lightBlue {
+    color: #00bff3;
+}
+
+#mainContainer {
+    width: 60%;
+    margin: auto;
+    color: #333333;
+}
+
+#mainContainer h1 {
+    margin-bottom: 0;
+}
+
+#mainContainer h2 {
+    margin-top: 0;
+    padding-bottom: 25pt;
+    border-bottom: dotted;
+}
+.generalText {
+    font-size: 24pt;
+    color: #555;
+    padding-bottom: 25pt;
+    border-bottom: dotted;
+    border-color: #bbbbbb;
+}
+
+#servicesContainer {
+    max-height: 450pt;
+    padding-bottom: 25pt;
+    border-bottom: dotted;
+    border-color: #bbbbbb;
+}
+
+.serviceCard {
+    display: inline-block;
+    padding: 20pt;
+    vertical-align: top;
+    text-align: center;
+    width: 25%;
+    background-color: #00aeef;
+}
+
+.serviceCard:not(:last-child) {
+    margin-right: 5%;
+}
+
+.serviceCard h3 {
+    margin-top: 0;
+    padding-bottom: 15pt;
+    font-size: 28pt;
+    font-weight: 100;
+    color: #ffffff;
+    border-bottom: dotted;
+    border-color: #ffffff;
+}
+.cardText {
+    margin-top: 0;
+    font-size: 14pt;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.cardButton {
+    width: 100%;
+    padding: 10pt 0;
+    background-color: #0076a3;
+    color: #ffffff;
+    border-style: none;
+    font-size: 14pt;
+    font-weight: 300;
+}
+
+.cardButton:hover {
+    box-shadow: inset 0 0 8px #434343;
+}
+
+.cardButton::after {
+    content: '>>';
+}
+
+#additionalInfo {
+    width: 60%;
+    margin: 20pt auto;
+}
+
+#additionalInfo div {
+    width: 49%;
+    display: inline-block;
+}
+
+#additionalInfo div:first-child {
+    border-right: dotted;
+    border-color: #bbbbbb;
+}
