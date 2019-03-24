@@ -17,7 +17,7 @@ nav {
 
 #navContainer {
     padding-top: 28px;
-    width: 60%;
+    width: 1150px;
     margin: auto;
 }
 
@@ -68,7 +68,8 @@ h2 {
 }
 
 #mainContainer {
-    width: 60%;
+	position: relative;
+    width: 1150px;
     margin: auto;
     color: #333333;
 }
@@ -145,7 +146,6 @@ h2 {
 }
 
 #additionalInfo {
-    width: 60%;
     margin: 20pt auto;	
     padding-bottom: 25pt;
     border-bottom: dotted;
@@ -220,7 +220,6 @@ figcaption p {
 }
 
 footer {
-	width: 60%;
     margin: 20pt auto;	
 	font-size: 16pt;
 	color: #bbbbbb;
