@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.woff');
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.left-column {
+    width: 44%;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.right-column {
+    width: 56%;
+    background-color: darkgoldenrod;
+    float: left;
+}
+
+.employee-description {
+    text-align: center;
+}
+
+.employee-photo img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.section-header {
+    vertical-align: middle;
+}
+
+.header-icon {
+    width: 12.5%;
+    display: inline-block;
+}
+
+.header-label {
+    display: inline-block;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 35px;
+    color: #3d6cb0;
+}
