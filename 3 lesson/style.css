@@ -73,3 +73,10 @@ div ul li {
     height: 100px;
     float: left;
 }
+
+#rel {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
