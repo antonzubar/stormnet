@@ -9,7 +9,7 @@ body {
     margin:0;
 }
 
-nav {
+header {
     background-color: #333333;
     color: #eeeeee;
     height: 133px;
@@ -68,7 +68,6 @@ h2 {
 }
 
 #mainContainer {
-	position: relative;
     width: 1150px;
     margin: auto;
     color: #333333;
@@ -220,6 +219,7 @@ figcaption p {
 }
 
 footer {
+	width: 1150px;
     margin: 20pt auto;	
 	font-size: 16pt;
 	color: #bbbbbb;
