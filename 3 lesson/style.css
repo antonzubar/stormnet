@@ -1,0 +1,75 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    height: 2000px;
+}
+
+h1 {
+    color: rgb(60, 255, 0);
+    margin-top: 50px;
+}
+
+div ul a {
+    text-decoration: none;
+    color: gray;
+}
+
+div ul a:hover {
+    color: rgb(51, 48, 48);
+}
+
+div ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+#unicOl li:nth-child(odd) {
+    color: magenta;
+}
+
+#block {
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(94, 66, 66);
+    position: fixed;
+    top: 0;
+    margin: auto;
+}
+
+#parent {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+#child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.text {
+    clear: both;
+}
+
+#float-parent {
+    background-color: brown;
+    overflow: hidden;
+}
+
+#float-child {
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
