@@ -16,20 +16,48 @@ body {
 }
 
 .registration-field {
-    margin: 5px auto;
+    margin: auto;
     display: block;
-    height: 25px;
+    height: 35px;
     width: 350px;
+    border: 2px solid red;
+    border-bottom: none;
 }
 
-.padding {
-    width: 100px;
-    height: 100px;
+.registration-field:nth-child(4) {
+    border-bottom: 2px solid red;
+}
+
+.button {
     background-color: red;
-    padding: 20px;
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 2px;
 }
 
-.margin {
-    margin-top: 50px;
-    margin-left: 100px;
+table {
+    color: white;
+    border: 1px solid whitesmoke;
 }
+
+td {
+    border: 1px solid whitesmoke;
+}
+
+table tr:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link {
+    font-size: 20px;    
+    text-shadow: black 0 0 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
