@@ -1,6 +1,5 @@
 aside {
     width: 20%;
-    float: left;
     background-color: orchid;
     height: 500px;
 }
@@ -9,6 +8,7 @@ aside {
     width: 80%;
     background-color: greenyellow;
     height: 500px;
+    float: right;
 }
 
 .first-task {
@@ -33,6 +33,10 @@ aside {
     margin-right: 40px;
 }
 
+svg:hover .eye {
+    fill: red;
+}
+
 
 @media (max-width:768px) {
 
@@ -42,13 +46,11 @@ aside {
 
     aside {
         width: 100%;
-        float: none;
     }
 
     #content {
-        width: 100%;
-        float: right;
-        margin-top: 0;
+        width: 100%;      
+        float: none;
     }
 
     #first {
