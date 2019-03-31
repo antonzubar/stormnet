@@ -1,0 +1,121 @@
+@font-face {
+    src: url('RobotoRegular.woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoRegular.woff');
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+#container {
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+header {
+    height: 95px;
+    background-color: #333333;
+}
+
+.content img {
+    margin-top: 29px;
+}
+
+#call-header {
+    float: right;
+    text-align: center;
+    margin-top: 15px;
+    color: #afe22d;
+    font-size: 22px;
+}
+
+#call-header a {
+    color: #afe22d;
+    font-size: 18px;
+}
+
+#call-header span {
+    display: block;
+}
+
+.section {
+    height: 560px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+#container div:nth-child(2) {
+    background-color: #333333;
+    color: white;
+    padding-top: 100px;
+}
+
+.green-font {
+    text-transform: uppercase;
+    color: #afe22d;
+    font-weight: bold;
+}
+
+#container div:nth-child(2) .content {
+    position: relative;
+}
+
+#image-container {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+#left_1_section {
+    position: absolute;
+    top: 80px;
+    right: 545px;
+}
+
+#right_1_section {
+    position: absolute;
+    top: 80px;
+    right: 45px;
+}
+
+#middle_1_section {
+    position: absolute;
+    right: 230px;
+    top: -50px;
+    z-index: 2;
+}
+
+#container div:nth-child(2) p {
+    margin-top: 0;
+    margin-left: 160px;
+}
+
+.main-button {
+    margin-top: 10px;
+    background-image: linear-gradient(#afe22d, #7baa06);
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 40px;
+    box-shadow: 0 0 20px #afe22d;
+}
+
+.main-button:hover {
+    background-image: none;
+    background-color: #afe22d;
+}
+
+#container div:nth-child(2) button {
+    margin-left: 160px;
+}
