@@ -1,0 +1,47 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#first {
+    background-color: blue;
+}
+
+#second {
+    background-color: red;
+}
+
+.second-task {
+    width: 100px;
+    height: 100px;
+    background-color: mediumslateblue;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+@media (max-width:768px) {
+    body {
+        background-color: goldenrod;
+    }
+
+    div {
+        margin: 20px auto;
+    }
+
+    #first {
+        background-color: red;
+    }
+    
+    #second {
+        background-color: blue;
+    }
+}
+
+@media (max-width:480px) {
+    .second-task {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+}
