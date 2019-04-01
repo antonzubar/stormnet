@@ -21,12 +21,7 @@ body {
     width: 1240px;
 }
 
-header {
-    height: 95px;
-    background-color: #333333;
-}
-
-.content img {
+#logo {
     margin-top: 29px;
 }
 
@@ -48,24 +43,23 @@ header {
 }
 
 .section {
-    height: 560px;
     box-sizing: border-box;
 }
 
-#container div:nth-child(2) {
-    background-image: radial-gradient(circle at center, #595959, #333333 45%);
+#first-section {
+    height: 655px;
+    background-image: radial-gradient(circle at center, #595959, #333333 55%);
     color: white;
-    padding-top: 100px;
+}
+
+#first-section .content {
+    position: relative;
 }
 
 .green-font {
     text-transform: uppercase;
     color: #afe22d;
     font-weight: bold;
-}
-
-#container div:nth-child(2) .content {
-    position: relative;
 }
 
 #image-container {
@@ -77,11 +71,11 @@ header {
 #farm {
     position: absolute;
     right: 30px;
-    top: -65px;
+    top: -60px;
 }
 
-#container div:nth-child(2) p {
-    margin-top: 0;
+#first-section .content p {
+    margin-top: 100px;
     margin-left: 100px;
     line-height: 45px;
     font-size: 32px;
@@ -97,6 +91,7 @@ header {
     border-style: none;
     border-radius: 40px;
     box-shadow: 0 0 20px #afe22d;
+    outline: none;
 }
 
 .main-button:hover {
@@ -104,6 +99,76 @@ header {
     background-color: #afe22d;
 }
 
-#container div:nth-child(2) button {
+#first-section .content button {
     margin-left: 100px;
+}
+
+#bitcoins-left {
+    position: absolute;
+    top: 150px;
+    left: -75px;
+}
+
+#bitcoins-bottom {
+    position: absolute;
+    top: 120px;
+    right: -10px;
+}
+
+#bitcoins-right {
+    position: absolute;
+    top: 465px;
+    left: 100px;
+}
+
+#second-section {
+    height: 630px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+#second-section h2 {
+    font-size: 32px;
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+#second-section .content {
+    width: 920px;
+}
+
+#second-section .content div{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    position: relative;
+}
+
+#second-section .content div span {
+    font-size: 120px;
+    margin-right: 120px;
+}
+
+#second-section .content div p {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+#second-section .content div img {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+#second-section .content div:nth-child(4) img {
+    left: 120px;
+}
+
+#second-section .content div:nth-child(5) img {
+    top: 70px;
+}
+
+#second-section .content div:nth-child(6) img {
+    top: 45px;
+    left: 105px;
 }
