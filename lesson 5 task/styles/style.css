@@ -267,11 +267,12 @@ ul {
 }
 
 #fourth-section h2 {
+    width: 690px;
     font-size: 35px;
     font-weight: 300;
     text-transform: uppercase;
-    text-align: center;
-    margin-top: 0;
+    text-align: left;
+    margin: 0 auto 40px;
 }
 
 #fourth-section h2 .green-font {
@@ -280,8 +281,84 @@ ul {
 
 #fourth-section .content div {
     display: inline-block;
+    width: 363px;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
 }
 
-#fourth-section .content div img {
+#fourth-section .content div:not(:nth-child(2)) img {
     display: block;
+}
+
+#fourth-section .content div h3 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#fourth-section .content div p {
+    margin-top: 0;
+    font-size: 17px;
+}
+
+#fourth-section .content div:nth-child(n+4) {
+    margin-top: 50px;
+}
+
+#fourth-section .content div:nth-child(2) p {
+    font-size: 16px;
+}
+
+#fourth-section .content div h3, #fourth-section .content div p {
+    text-align: left;
+}
+
+#fourth-section .content div:nth-child(1) img {
+    margin-left: 21px;
+}
+
+#fourth-section .content div:nth-child(1) h3 {
+    padding-top: 5px;
+}
+
+#fourth-section .content div:nth-child(3) img {
+    margin-left: 31px;
+}
+
+#fourth-section .content div:nth-child(3), #fourth-section .content div:nth-child(6) {
+    padding-left: 150px;
+}
+
+#fourth-section .content div:nth-child(2) {
+    padding-left: 10px;
+}
+
+#fourth-section .content div:nth-child(4) img {
+    margin-left: 31px;
+}
+
+#fourth-section .content div:nth-child(4) h3 {
+    padding-top: 8px;
+}
+
+#fourth-section .content div:nth-child(5) {
+    padding-left: 55px;
+}
+
+#fourth-section .content div:nth-child(5) img {
+    margin-left: 81px;
+}
+
+#fourth-section .content div:nth-child(6) img {
+    margin-left: 24px;
+}
+
+#fourth-section .content div:nth-child(6) h3 {
+    padding-top: 18px;
+}
+
+#fifth-section {
+    height: 595px;
 }
