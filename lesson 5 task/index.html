@@ -243,54 +243,183 @@
                 </div>
             </div>
             <div id="sixth-section" class="section">
-                <h2><span class="green-font">Индивидуальный</span> рассчет стоимости</h2>
-                <div class="content">
-                    <form action="/action...">
-                        <span>Выберите производителя:</span>
-                        <ul id="manufacturer-list">
-                            <li>
-                                <label>
-                                    <input type="radio" name="manufacturer" value="asrock">
-                                    <img class="green-background-icon" src="img/asrock-icon-green.png">
-                                    <img class="white-background-icon" src="img/asrock-icon-white.png">
-                                    <div class="radio-border"></div>
-                                </label>
-                            </li>
-                            <li>
-                                <label>
-                                    <input type="radio" name="manufacturer" value="asus">
-                                    <img class="green-background-icon" src="img/asus-icon-green.png">
-                                    <img class="white-background-icon" src="img/asus-icon-white.png">
-                                    <div class="radio-border"></div>
-                                </label>
-                            </li>
-                            <li>
-                                 <label>
-                                     <input type="radio" name="manufacturer" value="gigabyte">
-                                     <img class="green-background-icon" src="img/gigabyte-icon-green.png">
-                                     <img class="white-background-icon" src="img/gigabyte-icon-white.png">
-                                     <div class="radio-border"></div>
-                                </label>
-                            </li>
-                            <li>
-                                <label>
-                                    <input type="radio" name="manufacturer" value="msi">
-                                    <img class="green-background-icon" src="img/msi-icon-green.png">
-                                    <img class="white-background-icon" src="img/msi-icon-white.png">
-                                    <div class="radio-border"></div>
-                                </label>
-                            </li>
-                            <li>
-                                <label>
-                                    <input type="radio" name="manufacturer" value="msi">
-                                    <span>Другой</span>
-                                    <div class="radio-border"></div>
-                                </label>
-                            </li>
-                        </ul>
-                        <input type="submit" value="submit" class="main-button">
-                    </form>
-                </div>
+            <h2><span class="green-font">Индивидуальный</span> рассчет стоимости</h2>
+            <div class="content">
+                <form method="post" action="https://jsonplaceholder.typicode.com/todos/1">
+                    <span>Выберите производителя:</span>
+                    <ul id="manufacturer-list">
+                        <li>
+                            <label>
+                                <input type="radio" name="manufacturer" value="asrock">
+                                <img class="green-background-icon" src="img/asrock-icon-green.png">
+                                <img class="white-background-icon" src="img/asrock-icon-white.png">
+                                <div class="radio-border"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="manufacturer" value="asus">
+                                <img class="green-background-icon" src="img/asus-icon-green.png">
+                                <img class="white-background-icon" src="img/asus-icon-white.png">
+                                <div class="radio-border"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="manufacturer" value="gigabyte">
+                                <img class="green-background-icon" src="img/gigabyte-icon-green.png">
+                                <img class="white-background-icon" src="img/gigabyte-icon-white.png">
+                                <div class="radio-border"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="manufacturer" value="msi">
+                                <img class="green-background-icon" src="img/msi-icon-green.png">
+                                <img class="white-background-icon" src="img/msi-icon-white.png">
+                                <div class="radio-border"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="manufacturer" value="msi">
+                                <span>Другой</span>
+                                <div class="radio-border"></div>
+                            </label>
+                        </li>
+                    </ul>
+                    <ul id="videocard-detail">
+                        <li>
+                            <p>Количество видеокарт:</p>
+                            <select class="videocard-detail-dropdown">
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>Энергопотребление карты:</p>
+                            <select class="videocard-detail-dropdown">
+                                <option value="any">Любое</option>
+                                <option value="300">300</option>
+                                <option value="400">400</option>
+                                <option value="500">500</option>
+                                <option value="600">600</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>Производительность ЕТН:</p>
+                            <select class="videocard-detail-dropdown">
+                                <option value="any">Любая</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                                <option value="30">30</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>Производительность ZEC:</p>
+                            <select class="videocard-detail-dropdown">
+                                <option value="any">Любая</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                                <option value="30">30</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>Видеокарта:</p>
+                            <select class="videocard-detail-dropdown">
+                                <option value="any">Любая</option>
+                                <option value="1050">GTX 1050</option>
+                                <option value="1060">GTX 1060</option>
+                                <option value="1070">GTX 1070</option>
+                                <option value="1080">GTX 1080</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>Кол-во видеокарт:</p>
+                            <select class="videocard-detail-dropdown">
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>Блок питания:</p>
+                            <select class="videocard-detail-dropdown">
+                                <option value="any">Любая</option>
+                                <option value="500">500W</option>
+                                <option value="600">600W</option>
+                                <option value="700">700W</option>
+                                <option value="800">800W</option>
+                            </select>
+                        </li>
+                        <li>
+                            <button type="button">Ничего не понимаю, нужна консультация</button>
+                        </li>
+                    </ul>
+                    <ul id="additional-items">
+                        <li>
+                            <input type="checkbox" value="raisers">
+                            <label for="raisers">Райзеры PCI</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="watchdog">
+                            <label for="raisers">WatchDog(сторожевой таймер)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="sync">
+                            <label for="raisers">Синхронизатор</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="mon-emulator">
+                            <label for="raisers">Эмулятор монитора</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="farm-carcas">
+                            <label for="raisers">Каркас для фермы (Риги)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="adaptor">
+                            <label for="raisers">Переходник m2</label>
+                        </li>
+                    </ul>
+                    <ul id="additional-service">
+                        <li>
+                            <input type="checkbox" value="gathering">
+                            <label for="raisers">Сборка</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="setting">
+                            <label for="raisers">Настройка</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="bust">
+                            <label for="raisers">Разгон видеокарт</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="software-install">
+                            <label for="raisers">Установка ПО</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="down-volt">
+                            <label for="raisers">ДаунВольтинг</label>
+                        </li>
+                    </ul>
+                    <div>
+                        <button type="button" class="main-button">Введите Ваш номер</button>
+                        <input type="button" value="Расчитать стоимость" class="main-button">
+                    </div>
+                </form>
+            </div>
+        </div>
+            <div id="seventh-section" class="section">
+                <h2>Работаем только с <span class="green-font">проверенными комплектующими</span></h2>
             </div>
             <footer></footer>
         </div>

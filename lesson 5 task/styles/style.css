@@ -472,6 +472,7 @@ ul li:nth-child(7) .orange-icon img{
     height: 755px;
     background-color: #2a292a;
     color: white;
+    font-family: "Oswald", sans-serif;
 }
 
 #sixth-section h2 {
@@ -602,6 +603,95 @@ form span {
     display: none;
 }
 
+#videocard-detail {
+    padding: 0;
+    width: 710px;
+    font-family: "Oswald", sans-serif;
+    float: left;
+}
+
+#videocard-detail li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#videocard-detail li p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#videocard-detail li select {
+    width: 183px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-appearance: none;
+    background: url(../img/dropdown-pointer.png) 92% no-repeat #fff;
+}
+
+#videocard-detail li select::-ms-expand {
+    display: none;
+}
+
+#videocard-detail li:last-child button{
+    width: 416px;
+    height: 40px;
+    background-image: linear-gradient(#fdc118, #eb8307);
+    box-shadow: 0 0 20px #f4a310;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    outline: none;
+}
+
+#videocard-detail li:last-child button:hover {
+    background-image: none;
+    background-color: #f4a310;
+}
+
+#additional-items, #additional-service {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+#additional-items {
+    width: 260px;
+    float: left;
+}
+
+#additional-service {
+    font-size: 15px;
+    display: inline-block;
+    width: 200px;
+}
+
+form div {
+    clear: both;
+}
+
 form .main-button {
     display: block;
+}
+
+#seventh-section {
+    height: 850px;
+    background-color: #f8f8f8;
+}
+
+#seventh-section h2 {
+    margin-top: 0;
+    padding-top: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
 }
