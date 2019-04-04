@@ -665,22 +665,79 @@ form span {
 }
 
 #additional-items {
-    width: 260px;
+    width: 280px;
     float: left;
 }
 
 #additional-service {
     font-size: 15px;
     display: inline-block;
-    width: 200px;
+    width: 180px;
+    margin-left: 35px;
+}
+
+#additional-service li, #additional-items li {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.custom-checkbox {
+    float: left;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #afe22d;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.custom-checkbox:hover {
+    box-shadow: 0 0 10px #afe22d;
+}
+
+#additional-service li label input, #additional-items li label input {
+    display: none;
+}
+
+#additional-items li:first-child, #additional-service li:first-child {
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 15px;
+}
+
+#additional-service li label input:checked + div, #additional-items li label input:checked + div {
+    background-image: linear-gradient(#b0f401, #7baa06);
+    box-shadow: 0 0 10px #afe22d;
 }
 
 form div {
     clear: both;
+    width: 626px;
+    margin: auto;
+}
+
+.input-field {
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: inset 0 0 10px #6d716f;
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    border-style: none;
+    border-radius: 40px;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+form .input-field {
+    width: 230px;
+    margin-right: 60px;
 }
 
 form .main-button {
-    display: block;
+    display: inline-block;
 }
 
 #seventh-section {
@@ -688,10 +745,109 @@ form .main-button {
     background-color: #f8f8f8;
 }
 
+#seventh-section .content {
+    width: 1350px;
+}
+
 #seventh-section h2 {
     margin-top: 0;
+    padding-bottom: 100px;
+    margin-bottom: 0;
     padding-top: 40px;
-    font-weight: 300;
+    font-weight: 100;
     text-transform: uppercase;
     text-align: center;
+    font-size: 35px;
+}
+
+#partners {
+    width: 1240px;
+    margin: 0 auto 68px;
+}
+
+#partners img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 31px;
+}
+
+#partners img:last-child {
+    margin-right: 0;
+}
+
+#seventh-section div div:last-child {
+    position: relative;
+}
+
+#map {
+    width: 928px;
+    position: absolute;
+    top: 1px;
+}
+
+#ask-question {
+    float: right;
+    width: 422px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#ask-question p:first-child {
+    font-size: 25px;
+}
+
+#ask-question p:nth-child(2) {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+#ask-question input {
+    width: 230px;
+    margin-bottom: 15px;
+}
+
+#ask-question button {
+    width: 270px;
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    height: 130px;
+    background-color: #f8f8f8;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+footer .content {
+    width: 1240px;
+    position: relative;
+}
+
+footer .content * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer .content img {
+    margin-top: 25px;
+}
+
+footer .content a img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: -25px;
+}
+
+footer .content span {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 15px;
 }

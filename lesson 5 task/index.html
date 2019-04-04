@@ -245,8 +245,10 @@
             <div id="sixth-section" class="section">
             <h2><span class="green-font">Индивидуальный</span> рассчет стоимости</h2>
             <div class="content">
-                <form method="post" action="https://jsonplaceholder.typicode.com/todos/1">
-                    <span>Выберите производителя:</span>
+                <form method="POST" action="https://jsonplaceholder.typicode.com/todos/1">
+                    <span>Выберите производителя:<br>
+                        <br>
+                    </span>
                     <ul id="manufacturer-list">
                         <li>
                             <label>
@@ -365,54 +367,82 @@
                     </ul>
                     <ul id="additional-items">
                         <li>
-                            <input type="checkbox" value="raisers">
-                            <label for="raisers">Райзеры PCI</label>
+                            Дополнительные комплектующие:
                         </li>
                         <li>
-                            <input type="checkbox" value="watchdog">
-                            <label for="raisers">WatchDog(сторожевой таймер)</label>
+                            <label>
+                                <input type="checkbox" value="raisers">Райзеры PCI
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                         <li>
-                            <input type="checkbox" value="sync">
-                            <label for="raisers">Синхронизатор</label>
+                            <label>
+                                <input type="checkbox" value="watchdog">WatchDog(сторожевой таймер)
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                         <li>
-                            <input type="checkbox" value="mon-emulator">
-                            <label for="raisers">Эмулятор монитора</label>
+                            <label>
+                                <input type="checkbox" value="sync">Синхронизатор
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                         <li>
-                            <input type="checkbox" value="farm-carcas">
-                            <label for="raisers">Каркас для фермы (Риги)</label>
+                            <label>
+                                <input type="checkbox" value="mon-emulator">Эмулятор монитора
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                         <li>
-                            <input type="checkbox" value="adaptor">
-                            <label for="raisers">Переходник m2</label>
+                            <label>
+                                <input type="checkbox" value="farm-carcas">Каркас для фермы (Риги)
+                                <div class="custom-checkbox"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" value="adaptor">Переходник m2
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                     </ul>
                     <ul id="additional-service">
                         <li>
-                            <input type="checkbox" value="gathering">
-                            <label for="raisers">Сборка</label>
+                            Дополнительные услуги:
                         </li>
                         <li>
-                            <input type="checkbox" value="setting">
-                            <label for="raisers">Настройка</label>
+                            <label>
+                                <input type="checkbox" value="gathering">Сборка
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                         <li>
-                            <input type="checkbox" value="bust">
-                            <label for="raisers">Разгон видеокарт</label>
+                            <label>
+                                <input type="checkbox" value="setting">Настройка
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                         <li>
-                            <input type="checkbox" value="software-install">
-                            <label for="raisers">Установка ПО</label>
+                            <label>
+                                <input type="checkbox" value="bust">Разгон видеокарт
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                         <li>
-                            <input type="checkbox" value="down-volt">
-                            <label for="raisers">ДаунВольтинг</label>
+                            <label>
+                                <input type="checkbox" value="software-install">Установка ПО
+                                <div class="custom-checkbox"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" value="down-volt">ДаунВольтинг
+                                <div class="custom-checkbox"></div>
+                            </label>
                         </li>
                     </ul>
                     <div>
-                        <button type="button" class="main-button">Введите Ваш номер</button>
+                        <input type="field" placeholder="Введите Ваш номер" class="input-field">
                         <input type="button" value="Расчитать стоимость" class="main-button">
                     </div>
                 </form>
@@ -420,8 +450,36 @@
         </div>
             <div id="seventh-section" class="section">
                 <h2>Работаем только с <span class="green-font">проверенными комплектующими</span></h2>
+                <div id="partners">
+                    <img src="img/partner-logo-nvidia.png" alt="nvidia logo">
+                    <img src="img/partner-logo-msi.png" alt="MSI logo">
+                    <img src="img/partner-logo-asus.png" alt="ASUS logo">
+                    <img src="img/partner-logo-gigabyte.png" alt="GIGABYTE logo">
+                    <img src="img/partner-logo-asrock.png" alt="ASRock logo">
+                    <img src="img/partner-logo-palit.png" alt="PALiT logo">
+                </div>
+                <div class="content">
+                    <div>
+                        <div id="map">
+                            <img src="img/map.png" alt="Our location">
+                        </div>
+                        <div id="ask-question">
+                            <p><span class="green-font">+ 375 00 000 00 00<br>+ 375 00 000 00 00</span></p>
+                            <p>Остались вопросы?</p>
+                            <input type="text" class="input-field" placeholder="Введите Ваш номер">
+                            <input type="text" class="input-field" placeholder="Введите Ваш вопрос">
+                            <button type="button" class="main-button">Задать вопрос</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <footer></footer>
+            <footer>
+                <div class="content">
+                    <img src="img/gcg-icon.png" alt="Great Consult Group">
+                    <a href="#first-section"><img src="img/to-the-top.png" alt="Go to the top"></a>
+                    <span>iminer.by 2018 &copy; Все права защищены</span>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
