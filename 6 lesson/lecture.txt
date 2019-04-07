@@ -1,0 +1,42 @@
+transition - мен€ть стейт плавно
+transition: x y z a;
+x - what (top, background-color etc)
+y - duration time
+z - animation type (linear)
+a - time to wait before animation
+
+Example: background-color 0.5s linear 1s;
+
+Animation:
+@Keyframes(дериктива) step(им€)
+
+@keyframes step {
+    0% {left: 0px} (состо€ние на 0 секунду)
+    100% {left: 200px} (конец анимации, 100%)
+}
+
+#red-square {
+    animation: step 1s linear 0.2s infinite;
+}
+
+transform - трансформаци€ элемента (не мен€€ позиции)
+transform: rotate(90deg); (поворот на 90 градусов)
+transform: scale(2); scaleX(2); scaleY(2);(пропорциональное увеличение)
+transform: translate(100px, 200px); translateX(100px); translateY(100px); (смещение по х и по у)
+самое т€желое свойство дл€ браузера - box_shadow
+
+Emmet
+[! + Tab] - базова€ структура html документа
+[img + Tab] - добавление тэга img со всей разметкой
+[.block + Tab] - добавление <div class=".block"></div>
+[#bla + Tab] - добавление <div id="bla"></div>
+[ul.spisok>li*10>a + Tab]
+
+ЅЁћ (блок элемент модификатор) - почитать дома
+git bash here (открываетс€ консоль)
+1. git init (инициировать проект)
+2. git add * (добал€ет все файлы в репозиторий)
+3. git commit -m "first commit" (добавить\закоммитить изменени€).
+4. git remote -v (провер€ем есть или нет)
+5. git remote add origin URL
+6. git push origin master (пушим)

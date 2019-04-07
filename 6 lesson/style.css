@@ -1,0 +1,118 @@
+body {    
+    font-family: sans-serif;
+}
+
+#beautiful-form {
+    margin-top: 50px;
+    background-color: #00bfa5;
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+#left-side {
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    left: 5%;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#beautiful-form img {
+    width: 150px;
+    height: 150px;
+}
+
+#beautiful-background {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+#beautiful-form form input {
+    display: block;
+    margin: 30px auto 0;
+    padding: 0 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+#beautiful-form form input:focus {
+    border: 2px solid #00bfa5;
+}
+
+::placeholder {
+    color: #bdbdbd;
+  }
+
+#beautiful-form form button {
+    display: block;
+    margin: 20px auto 0;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: #00bfa5;
+    color: whitesmoke;
+    transition: background-color 0.5s;
+}
+
+#beautiful-form form button:hover {
+    background-color: #1de9b6;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#restore-password {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+#test {
+    position: relative;
+}
+
+#red-square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #00bfa5;
+}
+
+@keyframes step {
+    0% {left: 0px}
+    1% {top: 1px;}
+    5% {top: 10px;}
+    10% {top: 20px;}
+    20% {top: 30px;}
+    40% {top: 45px;}
+    50% {top: 50px;}
+    51% {top: 49px;}
+    60% {top: 45px;}
+    80% {top: 30px;}
+    90% {top: 20px;}
+    95% {top: 10px;}
+    99% {top: 1px;}
+    100% {left: 700px}
+}
+
+#red-square {
+    animation: step 2s linear alternate 0.2s infinite;
+}
