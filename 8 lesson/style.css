@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    width: 1110px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.light-yellow {
+    background-color: lightsalmon;
+}
+
+div {
+    margin: 10px;
+}
+
+.first-block {
+    width: 350px;
+    height: 150px;
+}
+
+.second-block {
+    width: 680px;
+    height: 150px;
+}
+
+.third-block {
+    width: 150px;
+    height: 120px;
+}
+
+.fourth-block {
+    width: 370px;
+    height: 120px;
+}
+
+.fifth-block {
+    width: 300px;
+    height: 283px;
+}
+
+.sixth-block {
+    width: 520px;
+    height: 283px;
+}
+
+.seventh-block {
+    width: 190px;
+    height: 283px;
+}
