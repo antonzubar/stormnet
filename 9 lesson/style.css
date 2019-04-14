@@ -1,0 +1,30 @@
+.block1 {
+    width: 100%;
+    background-color: orange;
+    height: 600px;
+}
+
+.block2 {
+    width: 100%;
+    height: 300px;
+    background-color: violet;
+    height: 240px;
+}
+
+.block3 {
+    width: 100%;
+    background-color: lightblue;
+    height: 180px;
+}
+
+.block4 {
+    width: 100%;
+    background-color: orange;
+    height: 360px;
+}
+
+.block5 {
+    width: 100%;
+    background-color: lightgreen;
+    height: 180px;
+}
