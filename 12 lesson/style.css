@@ -1,0 +1,134 @@
+.wrap {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 400px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100%;
+    font-size: 34px;
+    color: whitesmoke;
+}
+
+#box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: violet;
+}
+
+#box2 {
+    background-color: lightblue;
+}
+
+#box3 {
+    background-color: orange;
+}
+
+.wrap1 {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    margin-bottom: 20px;
+}
+
+#box4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: orange;
+}
+
+#box5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: violet;
+}
+
+#box6 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: lightblue;
+}
+
+#box7 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: orange;
+}
+
+#box8 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: green;
+}
+
+.wrap2 {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    margin-bottom: 20px;
+}
+
+#box10 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    background-color: violet;
+}
+
+#box11 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: lightblue;
+}
+
+#box12 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: lightgreen;
+}
+
+#box13 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: darkmagenta;
+}
+
+#box14 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 9;
+    background-color: orange;
+}
+
+#box15 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: lightblue;
+}
+
+#box16 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color: lightgreen;
+}
